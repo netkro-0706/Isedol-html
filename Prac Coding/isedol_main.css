@@ -1,3 +1,10 @@
+@media screen and (max-width:48rem) { 
+    html{
+        width: 100vh;
+        height: 100vh;
+    }
+}
+
 body{
     background-image: url("../Wak/31817173-古い時計の背景.png");
     background-color:rgba(0,0,0,0.4);
