@@ -1,0 +1,166 @@
+
+body{
+    margin:0;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+li{
+    list-style: none;
+}
+
+.nav{
+    height: 80px;
+    background-color: black;
+}
+.nav_box{
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_icon{
+    width: 132px;
+}
+.nav_item2{
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #1ed760;
+}
+.atem{
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+.main{
+    height: 969px;
+    background-color: rgb(41, 65, 171);
+    background-image: url("https://content-tooling.spotifycdn.com/images/af63e367-ad10-4063-a8e2-5a50ae2a4b28_lie_circles-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: auto 181%;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_word{
+    color: #1ed760;
+}
+.main_word_in_wrap>div{
+    font-size: 176px;
+    font-weight: 900;
+    line-height: 166px;
+}
+.main_word_in_wrap div:nth-child(1){
+    position: relative;
+    left: -1.3em;
+}
+.main_word_in_wrap div:nth-child(2){
+    position: relative;
+    left: 1.2em;
+}
+.sub_word{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.main_button button{
+    padding: 14px 32px;
+    background: #1ed760;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+    border-radius: 500px;
+}
+.main_button button:hover{
+    transform: scale(1.07);
+}
+
+.footer{
+    max-width: 100%;
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.footer_wrap{
+    width: 1170px;
+}
+.foot_up{
+    display: flex;
+    flex-direction: row;
+}
+.out_ul{
+    color: #919496;
+}
+.out_ul>li{
+    float: left;
+    margin-right: 70px;
+}
+.in_ul{
+    padding: 0;
+}
+.in_ul>li{
+    line-height: 40px;
+}
+.foot_nav{
+    width: 70%;
+}
+.icon_div{
+    display: flex;
+    width: 30%;
+}
+.foot_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    font-size: 24px;
+    background-color: #222322;
+    margin-right: 15px;
+    border-radius: 50px;
+}
+.foot_icon:hover{
+    color: #1ed760;
+}
+.far{
+    width: 24px;
+}
+.foot_up{
+    height: 400px;
+}
+.foot_script{
+    width: 100%;
+    margin-top: 50px;
+}
+.join{
+    float: right;
+}
+.subscript{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    bottom:0;
+    
+}
+footer{
+    border: 1px solid yellow;
+}
+.subscript a{
+    margin-right: 24px;
+    color: #919496;
+}
+.subscript a:hover{
+    color: #1ed760;
+}
+.AB div{
+    float: right;
+}

@@ -1,0 +1,41 @@
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+}
+
+.btn-outline-success:hover{
+    background-color: chocolate;
+    border-color: chocolate;
+}
+
+.join_ctry{
+    width: 16px;
+    height: 12px;
+}
+
+.first_line{
+    border-bottom: 1px solid #392d23;
+}
+.second_line a{
+    color: white;
+    text-decoration: none;
+}
+.third_line{
+    display: none;
+}
+
+@media screen and (max-width:48rem){
+    .first_line{
+        text-align: center;
+    }
+    .join_div{
+        display: none;
+    }
+    .second_line{
+        padding: 0 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+    .third_line{
+        display: block;
+    }
+}

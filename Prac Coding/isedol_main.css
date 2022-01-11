@@ -1,0 +1,155 @@
+body{
+    background-image: url("../Wak/31817173-古い時計の背景.png");
+    background-color:rgba(0,0,0,0.4);
+    background-blend-mode:darken;
+    color: rgb(209, 16, 106);
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link{
+    color: rgb(209, 16, 106);
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: green;
+}
+
+.head_banner{
+    background-color: rgb(209, 16, 106);
+    display:flex;
+    justify-content: center;
+}
+
+.idol_card-wrap{
+    width: 30%;
+}
+.idol_section{
+    margin-top:1rem;
+}
+@media screen and (max-width:48rem) { 
+    .idol_section{
+        margin-top:5px;
+    }
+    .idol_card-wrap{
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 5px;
+    }
+}
+.card, .card-img-top{
+    border-radius: 30px;
+}
+.card-img-top{
+    z-index: 3;
+}
+.card-img-top:hover{
+    background-blend-mode:lighten;
+    opacity: 0.4;
+    z-index: 1;
+}
+.card-body{
+    position: absolute;
+    bottom: 20px;
+    font-weight: 1000;
+    z-index: 2;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 4%;
+}
+
+.idol_single{
+    margin: 2rem 0;
+}
+.single_mv{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.single-intro{
+    padding: 10px 80px;
+    margin-bottom: 20px;
+    background-image: url("../Wak/cloud.png");
+    background-size: 300px 110px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+#Remind_mv{
+    width:560px;
+    height:315px;
+}
+
+.CEO_Prof{
+    padding: 20px 100px;
+    background-color: rgb(31, 31, 31);
+    opacity: 0.97;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CEO_Prof_in_wrap{
+    width: 700px;
+}
+.Prof_title{
+    margin-bottom: 20px;
+}
+.Prof_wrap{
+    display: flex;
+    width: 700px;
+}
+.Prof_img_wrap{
+    margin-right: 20px;
+}
+.Prof_img{
+    height: 190px;
+}
+
+@media screen and (max-width:48rem) { 
+    .Prof_wrap{
+        flex-direction: column;
+        width: 100%;
+    }
+    .CEO_Prof_in_wrap{
+        width: 100%;
+    }
+    .Prof_img{
+        width: 300px;
+        height: 400px;
+    }
+    .Prof_img_wrap{
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    #Remind_mv{
+        max-width: 480px;
+    }
+}
+footer{
+    background-color: rgb(31, 31, 31);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 100px;
+}
+.footer_wrap{
+    display: flex;
+    width: 700px;
+    padding-left: 20px;
+}
+.foot_link{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.foot_copyright{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.foot_logo{
+    height: 24px;
+}
